@@ -1,0 +1,444 @@
+body{
+	margin: 0;
+	padding: 0; 
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	display: block;
+}
+span{
+	display: block;
+}
+.zhuangtai{
+	width: 7.5rem;
+	height: 0.48rem;
+	background-image: url('../img/82fcd499589dc88bae11b811c29bf6eb_03.png');
+	background-size: 7.5rem;
+	background-repeat: no-repeat;
+}
+.nav{
+	width: 7.5rem;
+	height: 0.88rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.36rem;
+	line-height: 0.88rem;
+	text-align: center;
+	cursor: pointer;
+	background-color: #F9F9F9;
+}
+.nav .nav1{
+	width: 16.667%;
+	height: 0.88rem;
+}
+.box{
+	width: 7.5rem;
+	height: 7.5rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.box img{
+	width: 7.5rem;
+	height: 7.5rem;
+}
+.dian{
+	width: 0.78rem;
+	height: 0.3rem;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	margin-left: -0.39rem;
+	border-radius: 30%;
+}
+.dian span:nth-child(1){
+	width: 0.13334rem;
+    height: 0.13334rem;
+   	background: rgba(102, 102, 102, 0.8);
+   	position: absolute;
+   	border-radius: 50%;
+   	top: 50%;
+   	margin-top: -0.0666rem;
+   	left: 0.12rem;
+}
+.dian span:nth-child(2){
+	width: 0.13334rem;
+    height: 0.13334rem;
+   	background: rgba(102, 102, 102, 0.3);
+   	position: absolute;
+   	border-radius: 50%;
+   	top: 50%;
+   	margin-top: -0.0666rem;
+   	left: 0.32rem;
+}
+.dian span:nth-child(3){
+	width: 0.13334rem;
+    height: 0.13334rem;
+   	background: rgba(102, 102, 102, 0.3);
+   	position: absolute;
+   	border-radius: 50%;
+   	top: 50%;
+   	margin-top: -0.0666rem;
+   	left: 0.51rem;
+}
+.jin{
+	width: 1.04rem;
+	height: 0.34rem;
+	position: absolute;
+    bottom: 0.8rem;
+    left: 1.333333rem;
+    border: 0.01rem solid #E93B39;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.34rem;
+    color: #E93B39;
+    left: 0.5rem;
+    bottom: 0.8rem;
+}
+.hezi{
+	width: 7.5rem;
+	height: 0.68rem;
+	background-color: rgba(238, 238, 238, 0.8);
+	position: absolute;
+	bottom: 0;
+	font-size: 0.26rem;
+	text-align: center; 
+	line-height: 0.68rem;
+}
+.red{
+	width: 6.6rem;
+	height: 0.4rem;
+	margin: 0.15rem auto;
+	color: #E93B39;
+}
+.red span:first-child{
+	font-size: 0.45rem;
+	font-weight: 700;
+	float: left;
+}
+.red span:last-child{
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+	width: 1rem;
+	height: 0.4rem;
+	font-size: 0.3rem;
+	font-weight: 700;
+	border: 0.01rem solid #E93B39;
+	float: left;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.hui{
+	width: 7.5rem;
+	height: auto;
+	color: #999999;
+	font-weight: 100;
+	font-size: 0.3rem;
+	text-align: left;
+}
+.hui del{
+	margin-left: -1.5rem;
+}
+.one{
+	width: 6.5rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	font-size: 0.32rem;
+	font-weight: 800;
+}
+.one span{
+	float: left;
+	color: #BEA474;
+}
+.er{
+	width: 6.5rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	font-size: 0.28rem;
+	padding: 0.2rem 0;
+}
+.three{
+	width: 7.5rem;
+	height: 1.16rem;
+	box-sizing: border-box;
+	padding: 0.36rem 0.95rem 0.36rem 0.5rem;
+	border-top: 0.01rem solid #EBEBEB;
+}
+.three .three1{
+	font-size: 0.32rem;
+	float: left;
+	font-weight: 600;
+}
+.three .three2{
+	font-size: 0.27rem;
+	float: right;
+	line-height: 0.44rem;
+	margin-right: 0.1rem;
+}
+.three .three3{
+	font-size: 0.32rem;
+	float: right;
+	line-height: 0.44rem;
+}
+.four{
+	width: 6.9rem;
+	height: 0.82rem;
+	margin: 0.6rem 0.1rem 0.6rem 0.5rem;
+	box-sizing: border-box;
+}
+.four .four1{
+	font-size: 0.3rem;
+	width: 1rem;
+	float: left;
+	font-weight: 900;
+}
+.four .four2{
+	background-color: #1A191E;
+	color: #fff;
+	font-size: 0.3rem;
+	width: 1.08rem;
+	height: 0.46rem;
+	float: left;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.five{
+	width: 6.9rem;
+	height: 0.82rem;
+	margin: 0.6rem 0.1rem 0.6rem 0.5rem;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.five .five1{
+	float: left;
+	margin: 0.15rem 0 0 0;
+	font-weight: 700;
+}
+.five .five2{
+	float: right;
+	margin: 0.15rem 0.3rem 0;
+	width: 0.5rem;
+	height: 0.4rem;
+	border: 0.01rem solid #ccc;
+	background-color: #ccc;
+	line-height: 0.4rem;
+}
+.five .five3{
+	width: 0.5rem;
+	height: 0.4rem;
+	float: right;
+	margin: 0.15rem 0.3rem 0;
+	border: 0.01rem solid #ccc;
+	background-color: #FFF;
+	box-sizing: border-box;
+}
+.five .five4{
+	font-size: 0.32rem;
+	width: auto;
+	height: 0.52rem;
+	border-bottom: 0.01rem solid #BEA474;
+	float: right;
+	line-height: 0.55rem;
+	margin: 0 0.3rem 0;
+	color: #BEA474;
+}
+.six{
+	width: 7.5rem;
+	height: 2.63rem;
+	color: #4a4a4a;
+	background-color: #fafafa;
+}
+.six .six1{
+	width: 1.6rem;
+	float: left;
+	margin-top: 0.5rem;
+	font-size: 0.26rem;
+	text-align: center;
+}
+.six .six1:first-child{
+	margin-left: 0.3rem;
+}
+.six .six1 img{
+	width: 0.54rem;
+	height: 0.68rem;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+}
+.six .six2{
+	font-size: 0.45rem;
+	float: right;
+	margin-top: 0.8rem;
+	margin-right: 0.2rem;
+}
+.seven{
+	width: 7.5rem;
+	height: 7rem;
+	font-size: 0.26rem;
+	border-bottom: 0.01rem solid #EBEBEB;
+	overflow: hidden;
+}
+.seven .seven1{
+	width: 100%;
+	height: 0.55rem;
+	margin: 0.6rem 0.5rem 0.52rem 0.5rem;
+	font-size: 0.36rem;
+	font-weight: 700;
+}
+.seven table{
+	margin: 0.1rem 0.45rem;
+}
+.seven table td{
+	width: 2.5rem;
+}
+.seven table tr{
+	height: 0.45rem;
+}
+.eight{
+	width: 7.5rem;
+	height: 1.67rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	font-size: 0.3rem;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.eight span{
+	margin-top: 0.6rem;
+}
+.eight span:first-child{
+	float: left;
+	font-size: 0.4rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+}
+.eight span:nth-child(2){
+	float: right;
+}
+.eight span:last-child{
+	float: right;
+}
+.nine{
+	height: 0.54rem;
+	margin: 0.6rem 0.5rem 0.52rem 0.5rem;
+	font-size: 0.4rem;
+	box-sizing: border-box;
+	font-weight: 700;
+	overflow: hidden;
+}
+.ten{
+	width: 6.5rem;
+	height: 2.66rem;
+	margin: 0 auto;
+}
+.ten img{
+	width: 6.5rem;
+	height: 2.66rem;
+}
+.eleven{
+	width: 6.5rem;
+	height: 5.04rem;
+	margin: 0 auto;
+}
+.eleven img{
+	width: 6.5rem;
+	height: 5.04rem;
+}
+.shier{
+	width: 6.5rem;
+	height: 8.84rem;
+	margin: 0 auto;
+}
+.shier img{
+	width: 6.5rem;
+	height: 8.84rem;
+	margin: 0 auto;
+}
+.shisan{
+	width: 6.5rem;
+	height: 8.84rem;
+	margin: 0 auto;
+}
+.shisan img{
+	width: 6.5rem;
+	height: 8.84rem;
+	margin: 0 auto;
+}
+.shisi{
+	width: 7.5rem;
+	height: 5.04rem;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+}
+.shisi .shisi1{
+	font-size: 0.4rem;
+	font-weight: 700;
+	margin-bottom: 0.3rem;
+}
+.shisi .shisi2{
+	font-size: 0.28rem;
+	padding-bottom: 1.2rem;
+}
+.di{
+	width: 7.5rem;
+	height: 1.12rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+.di .iconfont{
+	font-size: 0.6rem;
+	margin-left: 0.5rem;
+	color: #000;
+	float: left;
+	line-height: 1.12rem;
+}
+.di .di1{
+	width: 2.9rem;
+	height: 0.9rem;
+	background-color: #E93B39;
+	float: right;
+	margin-right: 0.2rem;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.9rem;
+	margin-top: 0.05rem;
+}
+.di .di2{
+	width: 2.9rem;
+	height: 0.9rem;
+	background-color:#1A191E;
+	float: right;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.9rem;
+	margin-top: 0.05rem;
+}
+.ershi{
+	width: 6.5rem;
+	height: 5.04rem;
+	margin: 0 auto;
+}
+.ershi img{
+	width: 6.5rem;
+	height: 5.04rem;
+	margin: 0 auto;
+}
+.eryi{
+	width: 6.5rem;
+	height: 4.88rem;
+	margin: 0 auto;
+}
+.eryi img{
+	width: 6.5rem;
+	height: 4.88rem;
+	margin: 0 auto;
+}
